@@ -1,0 +1,7 @@
+.idea
+node_modules
+config
+logs
+build
+.git
+.gitignore

@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "./build",
+    "./node_modules",
+    "./config",
+    "./images",
+    "./logs"
+  ],
+  "include": [
+    "./model/**/*.ts"
+  ]
+}

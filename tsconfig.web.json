@@ -1,0 +1,23 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "es6"
+    ]
+  },
+  "exclude": [
+    "./server",
+    "./web/.next"
+  ],
+  "include": [
+    "./web/next-env.d.ts",
+    "./web/**/*.ts",
+    "./web/**/*.tsx"
+  ]
+}
